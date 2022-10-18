@@ -1,0 +1,248 @@
+:root {
+ --second-font: 'Roboto', sans-serif;
+ --colorfont-hiro: #FFFFFF;
+ --colorfont-section-title:#212121;
+
+ 
+ --section-fon-second:#2F303A;
+ --section-fon-third:#F5F4FA;
+ 
+ 
+
+}
+
+body{
+
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+letter-spacing: 0,03em;
+background: var(--colorfont-hiro) ;
+
+/*колір основного тексту #757575*/
+/*колір вторинного тексту #212121*/
+/*колір н1 #FFFFFF*/
+/*колір акцент.логотіпа #2196F3
+                        #000000 * /
+/*колір першого фону (основний)#FFFFFF */
+/*колір другого фону #2F303A*/
+/*колір третього фону #F5F4FA*/
+
+} 
+
+     /*!--робота з текстом в  ссилках в шапці */
+.link{
+  text-decoration: none;
+}
+.link:hover,
+.link:focus{
+
+color:#2196F3;
+}
+.link-first-btn:hover,
+.link-first-btn:focus{
+     font-family: inherit;
+     background:#FFFFFF;
+}
+
+.list{
+list-style:none;}
+
+.logo-link{
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: calc(16 / 14);
+}
+.logo-color-first{
+color:#2196f3;
+}
+.logo-color-second{
+color:#000000 ;
+}
+.logo-colorsecond-footer{
+ color:#FFFFFF;
+}
+
+.heder-nav-link{
+  font-family: var( --second-font);
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+   color: #212121;
+}
+
+
+
+.header-nav-mail{
+  font-family: var( --second-font);
+font-weight: 500;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+
+color:#757575;
+}
+ 
+.header-nav-tel{
+  font-family: var( --second-font);
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  
+  color: #757575;
+}
+
+
+
+
+    /*робота с першою секцією-герой*/
+.section-first{
+ background:var(--section-fon-second) ;
+}
+.section-title-first{
+  font-family: var( --colorfont-hiro);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  /* or 136% */
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color:var(--colorfont-hiro);
+}
+
+.section-first-btn{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+  background: #2196F3;
+}
+
+.active-link{
+  color:#2196f3;
+}
+ 
+    /*Робота з другою секцією*/
+.title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #212121;
+}
+
+.advanteg-our{
+  font-size: 14px;
+  line-height: calc(24 / 14);
+   letter-spacing: 0.03em;
+  color: #757575;
+}
+
+    /*третя секція Img*/
+.section-title{
+  font-family:var(--second-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color:var(--colorfont-section-title);
+}
+      /*четверта секция-наши сотрудники(section-employees)*/
+.section-fourth{
+ background:var(--section-fon-third) ;
+}
+.title-employees{
+      
+      font-weight: 500;
+      font-size: 16px;
+      line-height: calc(19 / 16);
+      
+    
+      letter-spacing: 0.03em;
+      
+      color: #212121;
+}
+.employees{
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+
+   /*Робота з підвалом*/
+.footer{
+ background:var(--section-fon-second);
+}
+.adress{
+  font-style: normal;
+  line-height:calc(24v / 14);
+  letter-spacing: 0.03em;
+  
+  color: #FFFFFF;
+}
+.footer-nav{
+font-style: normal;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+     /*СТИЛІ ДЛЯ ПОРТФОЛІО*/
+
+    /*Стилізація кнопок*/
+ 
+.portfolio-btn{
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height:calc(26 / 16);
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.portfolio-btn-link:hover,
+.portfolio-btn-link:focus{
+   color:#FFFFFF;
+   background-color: #2196f3;
+}
+
+.portfolio-titles{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  /* identical to box height, or 200% */
+  
+  letter-spacing: 0.06em;
+  
+  color: #212121;
+}
+
+.portfolio-item{
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+
+
+    
