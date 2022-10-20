@@ -1,3 +1,13 @@
+html{
+box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+  box-sizing:inherit;
+}
+
+
 :root {
  --second-font: 'Roboto', sans-serif;
  --colorfont-hiro: #FFFFFF;
@@ -46,8 +56,22 @@ color:#2196F3;
 
 .list{
 list-style:none;}
+       /*--задаю єлементам в хедері розмітку--*/
+.list-item {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 93px;
+  padding-right: 50px;
+
+}
 
 .logo-link{
+  display:inline-block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+  
+
   font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -64,6 +88,8 @@ color:#000000 ;
 }
 
 .heder-nav-link{
+  display: flex;
+
   font-family: var( --second-font);
   font-weight: 500;
   line-height: calc(16 / 14);
