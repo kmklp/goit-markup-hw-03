@@ -55,21 +55,36 @@ color:#2196F3;
 }
 
 .list{
-list-style:none;}
-       /*--задаю єлементам в хедері розмітку--*/
-.list-item {
-  display: flex;
-  margin-top: 32px;
-  margin-left: 93px;
-  padding-right: 50px;
 
+ list-style:none;}
+       /*--задаю єлементам в хедері розмітку--*/
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: dashed;
+  color:aqua;
 }
 
+.header-container{
+display: flex;
+align-items: center;
+}
+
+.header-list{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
 .logo-link{
-  display:inline-block;
+  display: flex;
   margin-top: 24px;
   margin-bottom: 25px;
-  margin-left: 215px;
+  margin-left: 0px;
   
 
   font-family: 'Raleway';
@@ -86,9 +101,22 @@ color:#000000 ;
 .logo-colorsecond-footer{
  color:#FFFFFF;
 }
+      /*розмитка для nav*/
+.list-nav{
+margin-left: 93px;
+margin-right:auto;
+}
 
-.heder-nav-link{
-  display: flex;
+.header-nav-item:not( :last-child) {
+margin-right: 50px;
+
+
+}
+
+
+.header-nav-link{
+  padding: 24px 0px;
+  
 
   font-family: var( --second-font);
   font-weight: 500;
@@ -97,9 +125,14 @@ color:#000000 ;
    color: #212121;
 }
 
-
+      /* розмитка для тел и пошти*/
+.list-item{
+margin-right: 0;
+margin-left:auto;
+}
 
 .header-nav-mail{
+  padding: 24px 0px;
   font-family: var( --second-font);
 font-weight: 500;
 line-height: calc(16 / 14);
@@ -109,6 +142,9 @@ color:#757575;
 }
  
 .header-nav-tel{
+  margin-left: 50px;
+  padding: 24px 0px;
+
   font-family: var( --second-font);
   font-weight: 500;
   line-height: calc(16 / 14);
