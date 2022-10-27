@@ -223,12 +223,12 @@ padding-left: 0px;
 
 .about-header{
 margin-top: 94px;
-margin-left: 0px;
+padding-left: 0px;
 }
 
 .about-content{
 margin-top: 10px;
-margin-left: 0px;
+padding-left: 0px;
 }
 
 .about-header-content:not(:last-child){
@@ -277,10 +277,26 @@ margin-top: 50px;
 padding-left: 0px;
 }
       /*четверта секция-наши сотрудники(section-employees)*/
+      /*розмітка четвертої секції*/
+.employees-title{
+display: flex;
+align-items: center;
+margin-top: 188px;
+}
+
+.employees-img{
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+padding-left: 0px;
+}
 .section-fourth{
  background:var(--section-fon-third) ;
 }
 .title-employees{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
       
       font-weight: 500;
       font-size: 16px;
@@ -292,6 +308,10 @@ padding-left: 0px;
       color: #212121;
 }
 .employees{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+
   font-size: 16px;
   line-height: calc(19 / 16);
   
