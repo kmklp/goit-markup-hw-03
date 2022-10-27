@@ -210,6 +210,31 @@ color:#757575;
 }
  
     /*Робота з другою секцією*/
+    /*розмітка*/
+.about-container{
+display: flex;
+}
+
+.about-list{
+display: flex;
+align-items: flex-start;
+padding-left: 0px;
+}
+
+.about-header{
+margin-top: 94px;
+margin-left: 0px;
+}
+
+.about-content{
+margin-top: 10px;
+margin-left: 0px;
+}
+
+.about-header-content:not(:last-child){
+margin-right: 30px;
+}
+
 .title{
   font-weight: 700;
   font-size: 14px;
@@ -228,6 +253,8 @@ color:#757575;
 }
 
     /*третя секція Img*/
+    /*розмітка третьої секції*/
+    
 .section-title{
   font-family:var(--second-font);
   font-weight: 700;
