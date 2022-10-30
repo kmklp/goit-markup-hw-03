@@ -7,6 +7,16 @@ box-sizing: border-box;
   box-sizing:inherit;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+margin:0;
+}
+
+img{
+ display:block;
+ max-width:100%;
+ height:auto;
+}
+
 
 :root {
  --second-font: 'Roboto', sans-serif;
@@ -16,10 +26,7 @@ box-sizing: border-box;
  
  --section-fon-second:#2F303A;
  --section-fon-third:#F5F4FA;
- 
- 
-
-}
+ }
 
 body{
 
@@ -57,7 +64,10 @@ color:#2196F3;
 
 .list{
 
- list-style:none;}
+ list-style:none;
+ padding-left: 0;
+ margin:0;
+}
        /*--задаю єлементам в хедері розмітку--*/
 
 .container{
@@ -78,14 +88,18 @@ align-items: center;
   align-items: center;
 }
 
+.section{
+  padding: 94px 0px;
+}
+
 
 
 
 .logo-link{
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-left: 0px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 0px;
   
 
   font-family: 'Raleway';
@@ -105,7 +119,7 @@ color:#000000 ;
       /*розмитка для nav*/
 .list-nav{
 margin-left: 93px;
-margin-right:auto;
+padding-right:auto;
 }
 
 .header-nav-item:not( :last-child) {
@@ -161,7 +175,13 @@ color:#757575;
     /*розмітка секції герой*/
 .section-first{
  background:var(--section-fon-second) ;
+ display: flex;
+ text-align: center;
 }
+.container-size{
+padding:200px 0px;
+}
+
 .section-title-first{
    display:flex;
    justify-content: center;
@@ -175,7 +195,7 @@ color:#757575;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  /* or 136% */
+
   
   text-align: center;
   letter-spacing: 0.06em;
@@ -185,9 +205,9 @@ color:#757575;
 }
 
 .btn-hero{
-display:inline-block;
-padding: 10px 32px;
-margin-top: 30px;
+display:inline-flex;
+align-items: center;
+justify-content: center;
 
 
 }
@@ -228,9 +248,9 @@ align-items: flex-start;
 padding-left: 0px;
 }
 
-.about-header{
-margin-top: 94px;
-padding-left: 0px;
+.section-about{
+padding-top: 94px;
+padding-bottom: 0px;
 }
 
 .about-content{
@@ -238,8 +258,8 @@ margin-top: 10px;
 padding-left: 0px;
 }
 
-.about-header-content:not(:last-child){
-margin-right: 30px;
+.about-header-content{
+  flex-basis:calc((100%-30px*3)/4);
 }
 
 .title{
