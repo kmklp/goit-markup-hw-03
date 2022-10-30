@@ -185,9 +185,9 @@ padding:200px 0px;
 .section-title-first{
    display:flex;
    justify-content: center;
+   margin: 40px;
 
-   padding-top: 200px;
-   padding-bottom: 280px;
+
   
    
 
@@ -225,7 +225,7 @@ justify-content: center;
   font-size: 16px;
   line-height: calc(30 / 16);
   
-  display:flex;
+  
   letter-spacing: 0.06em;
 
   color: #FFFFFF;
@@ -254,7 +254,7 @@ padding-bottom: 0px;
 }
 
 .about-content{
-margin-top: 10px;
+
 padding-left: 0px;
 }
 
@@ -279,12 +279,16 @@ padding-left: 0px;
   color: #757575;
 }
 
+.about-header{
+  margin-bottom:10px;
+}
+
     /*третя секція Img*/
     /*розмітка третьої секції*/
 
 .section-title{
   display:flex;
-  margin-top: 118px;
+  margin-bottom: 50px;
   justify-content: center;
 
   font-family:var(--second-font);
@@ -308,22 +312,21 @@ padding-left: 0px;
 .employees-title{
 display: flex;
 align-items: center;
-margin-top: 188px;
+margin-bottom: 50px;
 }
 
 .employees-img{
 display: flex;
 justify-content: space-between;
-margin-top: 50px;
-margin-left: 0px;
 }
 .section-fourth{
- background:var(--section-fon-third) ;
+ background:var(--colorfont-hiro) ;
 }
 .title-employees{
       display: flex;
       justify-content: space-around;
-      margin-top: 30px;
+      margin-bottom: 10px;
+      
       
       font-weight: 500;
       font-size: 16px;
@@ -337,7 +340,7 @@ margin-left: 0px;
 .employees{
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  
 
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -346,6 +349,10 @@ margin-left: 0px;
   letter-spacing: 0.03em;
   
   color: #757575;
+}
+
+.employees-distance{
+ padding-top: 30px;
 }
 
    /*Робота з підвалом*/
@@ -358,15 +365,16 @@ flex-direction: column;
 }
 .logo-footer{
 display: flex;
-margin-top: 154px;
-padding-top: 60px;
-margin-bottom: 0px;
+padding: 0px 0px;
+margin-bottom: 20px;
+
 }
 .footer{
  background:var(--section-fon-second);
+ padding: 60px 0px;
 }
 .adress{
-  padding-top: 20px;
+  
 
 
   font-style: normal;
@@ -384,11 +392,11 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-adress{
-  padding-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-last{
-padding-top: 9px;
+  margin-bottom: 9px;
 }
 
      /*СТИЛІ ДЛЯ ПОРТФОЛІО*/
