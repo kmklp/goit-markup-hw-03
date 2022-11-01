@@ -405,7 +405,10 @@ color: rgba(255, 255, 255, 0.6);
 
     /*Стилізація кнопок*/
  
-.portfolio-btn{
+.portfolio-btn-link{
+  padding: 6px 22px;
+  margin-bottom: 56px;
+  
   
 
   font-family: inherit;
@@ -418,28 +421,32 @@ color: rgba(255, 255, 255, 0.6);
   color: #212121;
 }
 
+.btn-link:not(:last-child){
+margin-right: 30px;
+}
+
+
+
 .portfolio-btn-link:hover,
 .portfolio-btn-link:focus{
    color:#FFFFFF;
    background-color: #2196f3;
 }
 .portfolio-container{
-display: flex;
+display: block;
 align-items: center;
 }
 
 .btn-list{
-display:inline-flex;
-justify-content: center;
-align-items: center;
-}
-
-.btn-centr{
-  display:inline-flex;
-justify-content: center;
-align-items: flex-start;
+display:flex;
+justify-content: center;    ;
 
 }
+
+
+
+
+
 
 .portfolio-titles{
   font-weight: 700;
@@ -464,7 +471,17 @@ align-items: flex-start;
 
 .list-content{
 display: flex;
+flex-wrap: wrap;
 }
 
+.content-item{
+display: flex;
+width: 370px;
+margin-bottom: 30px;
+}
+
+.content-distance{
+flex-basis: calc((100%-60px*2)/3);
+}
 
     
