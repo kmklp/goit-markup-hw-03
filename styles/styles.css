@@ -406,6 +406,8 @@ color: rgba(255, 255, 255, 0.6);
     /*Стилізація кнопок*/
  
 .portfolio-btn{
+  
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -420,6 +422,23 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-btn-link:focus{
    color:#FFFFFF;
    background-color: #2196f3;
+}
+.portfolio-container{
+display: flex;
+align-items: center;
+}
+
+.btn-list{
+display:inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-centr{
+  display:inline-flex;
+justify-content: center;
+align-items: flex-start;
+
 }
 
 .portfolio-titles{
@@ -441,6 +460,10 @@ color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
   
   color: #757575;
+}
+
+.list-content{
+display: flex;
 }
 
 
