@@ -32,7 +32,7 @@ body{
 
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
-letter-spacing: 0,03em;
+letter-spacing: 0.03em;
 background: var(--colorfont-hiro) ;
 
 /*колір основного тексту #757575*/
@@ -182,11 +182,10 @@ color:#757575;
  background:var(--section-fon-second) ;
  display: flex;
  text-align: center;
+ padding:200px 0px;
 
 }
-.container-size{
-padding:200px 0px;
-}
+
 
 .section-title-first{
    display:flex;
